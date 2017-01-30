@@ -1330,7 +1330,7 @@
   };
 
   // Set the server for Parse to talk to.
-  Parse.serverURL = "https://parseapi.back4app.com";
+  Parse.serverURL = "https://api.parse.com";
 
   // Check whether we are running in Node.js.
   if (typeof(process) !== "undefined" &&
