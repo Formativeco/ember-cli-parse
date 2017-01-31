@@ -6,6 +6,7 @@ export default {
     //after: '',
     initialize: function(instance) {
         Parse.initialize(config.parse.appId, config.parse.javascriptKey);
+        Parse.serverURL = 'https://parseapi.back4app.com';
         var pa = instance.lookup("service:parse-auth");
         pa.register_instance(instance);
 
