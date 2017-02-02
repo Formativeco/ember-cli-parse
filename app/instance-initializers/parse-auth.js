@@ -5,8 +5,12 @@ export default {
     name: 'parse-auth',
     //after: '',
     initialize: function(instance) {
-        Parse.initialize(config.parse.appId, config.parse.javascriptKey);
-        Parse.serverURL = 'https://parseapi.back4app.com';
+        initialize: function(instance) {
+        Parse.initialize(
+  "S7f3ai3tVf0XXX98ePlZj6RIn7bXzgdlzPMoMD4f",
+  "792eH4ZmksZxKSc8AUWj6Or2IXSzMnrMdPgfoGQ7"
+);
+Parse.serverURL = 'https://pg-app-29xaespgs1zrsce21g5bcidie2h9xk.scalabl.cloud';
         var pa = instance.lookup("service:parse-auth");
         pa.register_instance(instance);
 
