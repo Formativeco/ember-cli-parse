@@ -5,7 +5,6 @@ export default {
     name: 'parse-auth',
     //after: '',
     initialize: function(instance) {
-        initialize: function(instance) {
         Parse.initialize(
   "S7f3ai3tVf0XXX98ePlZj6RIn7bXzgdlzPMoMD4f",
   "792eH4ZmksZxKSc8AUWj6Or2IXSzMnrMdPgfoGQ7"
